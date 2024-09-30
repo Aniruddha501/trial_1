@@ -1,0 +1,86 @@
+body {
+    background-color: #f5f5dc; /* Cream color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center; /* Center items vertically */
+}
+
+.left-section, .center-section, .right-section {
+    padding: 20px;
+}
+
+.top-boxes {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.box {
+    background-color: #d3d3d3; /* Light grey */
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.small-box {
+    width: 100px; /* Width for small boxes */
+    height: 50px; /* Height for small boxes */
+}
+
+.large-box {
+    width: 200px; /* Width for large boxes */
+    height: 100px; /* Height for large boxes */
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between buttons */
+}
+
+.rounded-button {
+    background-color: #4CAF50; /* Green color */
+    color: white;
+    border: none;
+    border-radius: 25px; /* Rounded corners */
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.rounded-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+}
+
+.text-box {
+    background-color: #d3d3d3; /* Light grey */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.news-updates {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.center-boxes {
+    display: flex;
+    justify-content: center; /* Center align boxes horizontally */
+    gap: 20px; /* Space between center boxes */
+}
